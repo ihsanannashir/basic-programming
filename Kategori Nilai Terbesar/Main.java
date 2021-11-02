@@ -35,7 +35,7 @@ public class Main {
             } else if (terbesar < 0) {
                 System.out.println("Terbesar : " + terbesar + ", merupakan bilangan genap negatif");
             } else {
-                System.out.println(terbesar + " masuk genap");
+                System.out.println(terbesar + ", bernilai 0");
             }
         } else if (Math.abs(terbesar) % 2 == 1) {
             if (terbesar > 0) {
@@ -43,7 +43,7 @@ public class Main {
             } else if (terbesar < 0) {
                 System.out.println("Terbesar : " + terbesar + ", merupakan bilangan ganjil negatif");
             } else {
-                System.out.println(terbesar + " masuk ganjil");
+                System.out.println(terbesar + ", bernilai 0");
             }
         }
 
@@ -54,7 +54,7 @@ public class Main {
             } else if (terkecil < 0) {
                 System.out.println("Terkecil : " + terkecil + ", merupakan bilangan genap negatif");
             } else {
-                System.out.println(terkecil + " masuk genap");
+                System.out.println(terkecil + ", bernilai 0");
             }
         } else if (Math.abs(terkecil) % 2 == 1) {
             if (terkecil > 0) {
@@ -62,7 +62,7 @@ public class Main {
             } else if (terkecil < 0) {
                 System.out.println("Terkecil : " + terkecil + ", merupakan bilangan ganjil negatif");
             } else {
-                System.out.println(terkecil + " masuk ganjil");
+                System.out.println(terkecil + ", bernilai 0");
             }
         }
     }
